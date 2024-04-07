@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    float: left;
+    margin: 70px 150px;
+    padding: 20px;
+    border-style: solid;
+    border-color: cadetblue;
+
+}
+.grid{
+    float:left;
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+}
+
+.clearfix{
+    clear: left;
+}
+
+h1{
+    margin-left: 4px;
+    font-weight: 700;
+    font-size: medium;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+.product{
+    float: left;
+    width: 24%;
+    margin:4px;
+    padding: 2px;
+    border-color:gray;
+    border-radius:4px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.phone{
+    width: 50%;
+    margin: 2px;
+    color: cadetblue;
+}
+.buttons{
+    float: left;
+    width: 100%;
+    margin:1px;
+    padding: 1px;
+
+}
+
+.product h2{
+    margin:1px;
+    padding: 1px;
+    font-size: small;
+    font-weight: 700;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.product p{
+    margin:1px;
+    padding: 1px;
+    font-size: small;
+    font-weight: 300;
+    color:gray;
+}
+.newPrice{
+    margin:1px;
+    padding: 1px;
+    font-size: small;
+    font-weight: 300;   
+    color: green;
+
+}
+.oldPrice{
+    margin:1px;
+    padding: 1px;
+    font-size: small;
+    font-weight: 300;
+    color: red;
+}
+.cart{
+    font-size: x-small;
+    text-align: center;
+    width:fit-content;
+    margin: 4px;
+    padding: 4px;
+    color: white;
+    background-color: dodgerblue;
+    border: blue 1px solid;
+}
+.like{
+    font-size: x-small;
+    width:fit-content;
+    margin: 4px;
+    padding: 4px;
+    color: dodgerblue;
+    background-color: white;
+    border: blue 1px solid;
+}
+svg{
+    margin-left:3px;
+    margin-right: 3px;
+}
